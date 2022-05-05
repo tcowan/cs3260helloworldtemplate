@@ -25,7 +25,7 @@ class Hello_WorldUITestsCS3260: XCTestCase {
     }
     
     func testForHelloWorldLabel() {
-        XCTAssert(XCUIApplication().staticTexts["Hello, World!"].exists) 
+        XCTAssert(XCUIApplication().staticTexts["Hello, world!"].exists) 
     }
     
 }
